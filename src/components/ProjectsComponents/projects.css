@@ -1,6 +1,6 @@
 #project{
-    width: 80%;
-    height: 3000px;
+    width: 100%;
+    /* height: 3000px; */
     /* background-color: rgb(246, 253, 253); */
     display: flex;
     flex-direction: column;
@@ -25,8 +25,8 @@
 #project_sect2{
     margin: auto;
     width: 90%;
-    height: 1000px;
-    padding-top: 10px;
+    /* height: 1000px; */
+    /* padding-top: 10px; */
     display: grid;
     grid-template-columns: repeat(5,18%);
     grid-template-rows: repeat(3,180px);
@@ -73,6 +73,11 @@
         width: 30px;
         height: 60px;
     }
+    #project_sectProjects{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
 
   }
   @media (max-width: 400px) {
@@ -87,6 +92,11 @@
         border: 1px solid #f2f2f2;
         box-shadow: 5px 5px 8px #e6e6e6;
     }
+    #project_sectProjects{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
   }
 
 .Skills img{
@@ -99,22 +109,58 @@
     animation-duration: 0.8ms;
     margin-top: 22px;
 }
-#slider{
-    height: 10em;
-    position: relative
+.slider{
+    margin:auto;
+    height: 13.5em;
+    position: relative;
 }
-#slider > * {
+.slider > div img {
+    width: 100%;
+}
+.slider > * {
     visibility: hidden;
     position: absolute;
     top: 0; left: 0;
-    animation: 8s autoplay1 infinite
+    animation: 5s autoplay1 infinite;
+    animation-delay: 0.7ms;
 }
 @keyframes autoplay1 {
     0% {visibility: visible}
     20% {visibility: hidden}
   }
-  #slider > *:nth-child(1) {animation-delay: 0s}
-  #slider > *:nth-child(2) {animation-delay: 2s}
-  #slider > *:nth-child(3) {animation-delay: 4s}
-  #slider > *:nth-child(4) {animation-delay: 6s}
-  #slider > *:nth-child(5) {animation-delay: 8s}
+  .slider > *:nth-child(1) {animation-delay: 0s}
+  .slider > *:nth-child(2) {animation-delay: 1s}
+  .slider > *:nth-child(3) {animation-delay: 2s}
+  .slider > *:nth-child(4) {animation-delay: 3s}
+  .slider > *:nth-child(5) {animation-delay: 4s}
+
+  #project_sectProjects{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      background-color: #fefffe;
+  }
+  .pro_card1{
+    width: 350px;
+    min-height: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 8px #ebebebd0;
+    border: 1px solid #f2f2f2b4;
+    padding: 12px 10px;
+    border-radius: 10px;
+    color: #4d4d4d;
+    position: relative;
+  }
+  .pro_card1 > div{
+      text-align: center;
+      width: 100%;
+      margin: auto;
+      font-size: 0.9rem;
+  }
+ #project_sectContact{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ #project_sectProjects > div:nth-child(2){
+     display: block;
+ }
