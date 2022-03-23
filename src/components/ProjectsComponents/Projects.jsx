@@ -4,6 +4,7 @@ import LocationOnRoundedIcon from '@mui/icons-material/LocationOnRounded';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import CallRoundedIcon from '@mui/icons-material/CallRounded';
 
+
 export default function Projects() {
   return (
     <div id="project">
@@ -71,8 +72,24 @@ export default function Projects() {
         </div>
         </div>
         <div id="project_sectProjects">
-            <div>
-                
+            <div id= "pro_card1">
+                <ul id="slider">
+                    <li>
+                        <img src={"pic1"}  alt="imageSkills"/>
+                    </li>
+                    <li>
+                        <img src={"pic2"}  alt="imageSkills"/>
+                    </li>
+                    <li>
+                        <img src={"pic3"}   alt="imageSkills"/>
+                    </li>
+                    <li>
+                        <img src={"pic4"}   alt="imageSkills"/>
+                    </li>
+                    <li>
+                        <img src={"pic5"}   alt="imageSkills"/>
+                    </li>
+                </ul>
             </div>
             <div>
                 
