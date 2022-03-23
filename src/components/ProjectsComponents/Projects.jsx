@@ -71,7 +71,8 @@ export default function Projects() {
              <div >Express</div>
          </div>                 
         </div>
-        </div><h1 style={{textAlign: 'center', marginTop: '-60px'}}>Projects</h1>
+        </div>
+        <h1 style={{textAlign: 'center', marginTop: '-60px'}}>Projects</h1>
         <div id="project_sectProjects">
             <div className= "pro_card1">
                 <h3 style={{textAlign: 'center'}}>Alibaba Clone</h3>
@@ -167,6 +168,7 @@ export default function Projects() {
             </div>
         </div>
         <hr/>
+        <h1 style={{textAlign: 'center'}}>Contact</h1>
         <div id="project_sectContact">
             <div>
                 <h2 style={{color: "#00BFFF"}}>
@@ -175,6 +177,19 @@ export default function Projects() {
                 <h4  style={{color: "#000"}}>
                     Let's Connect!
                 </h4>
+                <div id='contact'>
+                    <span>
+                        <a href="https://github.com/Dkravi93">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"  alt="imageSkills"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/deepak-ravi93/?originalSubdomain=in">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"  alt="imageSkills"/>
+                        </a>
+                        <a href="https://twitter.com/DkRavi_3">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png"  alt="imageSkills"/>
+                        </a>
+                    </span>
+                </div>
             </div>
             <div>
                 <ContactUs/>

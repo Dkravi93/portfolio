@@ -97,6 +97,9 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+    #project> h2:nth-child(1){
+        top: '50vh'
+    }
   }
 
 .Skills img{
@@ -139,6 +142,7 @@
       justify-content: space-evenly;
       width: 100%;
       background-color: #fefffe;
+      border-bottom: 4px solid #95A5A6 ;
   }
   .pro_card1{
     width: 350px;
@@ -160,6 +164,7 @@
  #project_sectContact{
      display: flex;
      justify-content: space-evenly;
+
  }
  #project_sectProjects > div:nth-child(2){
      display: block;

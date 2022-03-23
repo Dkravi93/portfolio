@@ -14,29 +14,33 @@ export const Styles = makeStyles((theme) =>({
     },
     Navbar: {
         backgroundColor : Theme.colors.best,
+        color: '#fff'
     },
     headcontent: {
         width: '100%',
          minHeight: '90vh',
          height: "auto",
+         paddingTop:'5vh',
          display: "flex",
          flexFlow: 'column wrap',
          alignItems: 'center',
          color: 'white',
          fontFamily: 'roboto',
+         textAlign: 'center',
          justifyContent: 'center',
+         [theme.breakpoints.down('xs')]: {
+            paddingTop:'10vh'
+        }
     },
     headTitle: {
         fontSize: '4rem',
         color: 'white',
-        [theme.breakpoints.down('xs')]: {
-            fontSize: '2.5rem',
-        }
+        
     },
     headDesc: {
         fontSize: '2rem',
         color: 'white',
-        marginLeft: 'vw',
+        margin: 'auto',
         [theme.breakpoints.down('xs')]: {
             fontSize: '1.5rem',
         }
@@ -67,12 +71,14 @@ export const Styles = makeStyles((theme) =>({
             content: '""',
             borderRadius: "50%",
 
-        }
+        },
+
     },
     decoratorText: {
         position: 'absolute',
         lineHeight:"40px",
         left: "20px",
+
     },
     decoratorArrow: {
         position: 'absolute',
@@ -110,8 +116,8 @@ export const Styles = makeStyles((theme) =>({
             width: "100px",
             height: "115px",
             top: "3vh",
-            left: "10vw",
-            display: "none",
+            justifyContent: "center",
+            display: "flex",
             alignItems: "center",
             content: '""',
         },

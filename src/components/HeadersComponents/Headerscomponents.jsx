@@ -18,6 +18,10 @@ export default function headerscompnents() {
 
     const [count,setCount] = State(0);
     const [res,setRes] = State("");
+
+    const handleClick = () => {
+      window.open("https://drive.google.com/file/d/1P4FqPrXjUN68MbXfyXO7Uyjd0vPyGAkM/view?usp=sharing");
+    };
   
     Effect(() => {
       const timer = setTimeout(() => {
@@ -47,6 +51,18 @@ export default function headerscompnents() {
              Welcome to my website!,
              <br/>
              I Design And Build User Interface, Based On Your Need...
+           </Typography>
+           <br />
+           <Typography>
+             
+           <button onClick={handleClick} style={{
+             backgroundColor: 'rgba(9, 198, 245, 0.897)',
+             borderRadius: "7px",
+             border: "1px solid rgba(9, 198, 245, 0.897)",
+             padding: "8px",
+             cursor: 'pointer',
+             boxShadow: 'rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px'
+           }}>Resume</button>
            </Typography>
            <Box className={classes.decorator}>
            <Typography className={classes.decoratorText}>
