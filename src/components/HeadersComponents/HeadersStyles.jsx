@@ -129,11 +129,12 @@ export const Styles = makeStyles((theme) =>({
         textDecoration: "none"
     },
     navhide: {
+        display : "none",
         "&:hover" : {
-                display: "block",
+                display: "flex",
                 overflow: "visible"
-            }
-        
-    }
+            },
+    },
+    
    
 }));

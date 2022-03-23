@@ -169,10 +169,10 @@ export default function Projects() {
         <hr/>
         <div id="project_sectContact">
             <div>
-                <h2>
+                <h2 style={{color: "#00BFFF"}}>
                    Have an idea?
                 </h2>
-                <h4>
+                <h4  style={{color: "#000"}}>
                     Let's Connect!
                 </h4>
             </div>

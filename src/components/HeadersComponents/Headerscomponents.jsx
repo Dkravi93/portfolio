@@ -35,7 +35,7 @@ export default function headerscompnents() {
 
   return (
     <Box className={classes.heady} >
-      <Navbar/>
+      <Navbar />
        <Box className={classes.headcontent}>
          <Box className={classes.Image}>
            <img src={Image} width={125} height={175} alt="imafg"/>
@@ -53,7 +53,7 @@ export default function headerscompnents() {
              <span><a href="#about" style= {{textDecoration: 'none', color: 'white'}}> About me</a></span> 
            </Typography>
            <Typography className={classes.decoratorArrow}>
-           <ArrowDownwardRoundedIcon/>
+           <ArrowDownwardRoundedIcon/>    
            </Typography>
            </Box>
       </Box>
