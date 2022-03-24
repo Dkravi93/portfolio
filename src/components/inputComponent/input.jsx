@@ -30,7 +30,7 @@ export const ContactUs = () => {
       <br/>
       <label>Message</label>
       <br/>
-      <textarea name="message" />
+      <textarea id="message" name="message" />
       <br/>
       <br/>
       <input type="submit" value="Send" />

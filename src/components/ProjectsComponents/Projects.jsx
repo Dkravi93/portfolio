@@ -4,9 +4,11 @@ import LocationOnRoundedIcon from '@mui/icons-material/LocationOnRounded';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import CallRoundedIcon from '@mui/icons-material/CallRounded';
 import {ContactUs} from '../inputComponent/input'
+import {handleClick1,handleClick2,handleClick3,handleClick4,handleClick5,handleClick6,handleClick7,handleClick8,handleClick9} from '../functionComponents/function'
 
 
 export default function Projects() {
+
   return (
     <div id="project">
         <div id="about">
@@ -103,10 +105,19 @@ export default function Projects() {
                     <div>
                        Tech Stack :  React | Redux | Styled components | Material UI | NodeJS | ExpressJS | MongoDB
                     </div>
+                    <span style={{display: 'flex', justifyContent: 'center'}}>
+                        <button onClick={handleClick1} className='button'>
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="Github" />
+                        </button>
+                        <div>  </div>
+                        <button onClick={handleClick2} className='button'>
+                        <img src="https://img.icons8.com/fluency/30/000000/domain.png" alt="website" />
+                        </button>
+                    </span>
                 </div>
             </div>
             <div className= "pro_card1">
-                <h3 style={{textAlign: 'center'}}>CultFit Clone</h3>
+                <h3 style={{textAlign: 'center'}}>Pull And Bear Clone</h3>
             <div className="slider">
             
                     <div>
@@ -134,6 +145,15 @@ export default function Projects() {
                     <div>
                        Tech Stack :  React | Redux | Styled components | Material UI | NodeJS | ExpressJS | MongoDB
                     </div>
+                    <span style={{display: 'flex', justifyContent: 'center'}}>
+                        <button onClick={handleClick3} className='button'>
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="Github" />
+                        </button>
+                        <div>  </div>
+                        <button onClick={handleClick4} className='button'>
+                        <img src="https://img.icons8.com/fluency/30/000000/domain.png" alt="website" />
+                        </button>
+                    </span>
                 </div>
             </div>
             <div className= "pro_card1">
@@ -165,6 +185,15 @@ export default function Projects() {
                     <div>
                        Tech Stack :  React | Redux | Styled components | Material UI | NodeJS | ExpressJS | MongoDB
                     </div>
+                    <span style={{display: 'flex', justifyContent: 'center'}}>
+                        <button onClick={handleClick5} className='button'>
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="Github" />
+                        </button>
+                        <div>  </div>
+                        <button onClick={handleClick6} className='button'>
+                        <img src="https://img.icons8.com/fluency/30/000000/domain.png" alt="website" />
+                        </button>
+                    </span>
                 </div>
             </div>
         </div>
@@ -181,15 +210,21 @@ export default function Projects() {
                 </h4>
                 <div id='contact'>
                     <span>
-                        <a href="https://github.com/Dkravi93">
-                        <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"  alt="imageSkills"/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/deepak-ravi93/?originalSubdomain=in">
-                        <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"  alt="imageSkills"/>
-                        </a>
-                        <a href="https://twitter.com/DkRavi_3">
+
+                            <button onClick={handleClick7}>
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"  alt="imageSkills"/>
+                            </button>
+
+        
+                            <button onClick={handleClick8}>
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"  alt="imageSkills"/>
+                            </button>
+
+                  
+                        <button onClick={handleClick9}>
                         <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png"  alt="imageSkills"/>
-                        </a>
+                        </button>
+
                     </span>
                 </div>
             </div>

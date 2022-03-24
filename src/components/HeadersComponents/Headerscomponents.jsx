@@ -6,6 +6,7 @@ import ArrowDownwardRoundedIcon from '@mui/icons-material/ArrowDownwardRounded';
 import Image from '../images/deepak.jpg';
 
 
+
 export default function headerscompnents() {
 
   const classes = Styles();
