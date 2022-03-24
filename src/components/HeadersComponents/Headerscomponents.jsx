@@ -43,7 +43,7 @@ export default function headerscompnents() {
       <Navbar />
        <Box className={classes.headcontent}>
          <Box className={classes.Image}>
-           <img src={Image} width={125} height={175} alt="imafg"/>
+           <img src={Image} width={140} height={215} alt="imafg"/>
          </Box>
            <Typography variant="h4" component="h4" className={classes.headerTitle}>
              Hi, I'm {res}

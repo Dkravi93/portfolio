@@ -122,8 +122,8 @@ export const Styles = makeStyles((theme) =>({
         marginBottom : '40px',
         border: '4px solid #27AE60',
         [theme.breakpoints.down('xs')]: {
-            width: "100px",
-            height: "115px",
+            width: "130px",
+            height: "135px",
             top: "3vh",
             justifyContent: "center",
             display: "flex",
