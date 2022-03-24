@@ -49,7 +49,7 @@ export default function Navbar() {
            <div id='tr' style={{position: 'absolute',textAlign: 'center',top:'3vh',right: '0vw',display: 'none',zIndex:"1",overflow: 'visible', width:'100px'}}>
              <a href= '#project_sectHome'style={{textDecoration: 'none', color: 'black'}}>Home</a><br/>
              <a  href= '#project_sectSkills'style={{textDecoration: 'none', color: 'black'}}>Skills</a><br/>
-             <a  href= '#project_sectSkills'style={{textDecoration: 'none', color: 'black'}}>Education</a><br/>
+             <a  href= '#project_sectEducation'style={{textDecoration: 'none', color: 'black'}}>Education</a><br/>
              <a href= '#project_sectProjects'style={{textDecoration: 'none', color: 'black'}}>Projects</a><br/>
              <a href= '#project_sectContact'style={{textDecoration: 'none', color: 'black'}}>Contact</a><br/>
            </div> 

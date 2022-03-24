@@ -129,7 +129,7 @@ export default function Projects() {
                 <br/>
                 <div>
                     <div>
-                        An online global e-commerce website. Where customers can sell or buy product with variety of range.
+                        A trending Europian website famous for western Apparels.
                     </div>
                     <div>
                        Tech Stack :  React | Redux | Styled components | Material UI | NodeJS | ExpressJS | MongoDB
@@ -160,7 +160,7 @@ export default function Projects() {
                 <br/>
                 <div>
                     <div>
-                        An online global e-commerce website. Where customers can sell or buy product with variety of range.
+                        A food delivery online platform for variety of etable products.
                     </div>
                     <div>
                        Tech Stack :  React | Redux | Styled components | Material UI | NodeJS | ExpressJS | MongoDB
