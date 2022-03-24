@@ -4,7 +4,7 @@ import LocationOnRoundedIcon from '@mui/icons-material/LocationOnRounded';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import CallRoundedIcon from '@mui/icons-material/CallRounded';
 import {ContactUs} from '../inputComponent/input'
-import {Education} from'../EducationComponents/Education'
+
 
 export default function Projects() {
   return (
@@ -23,7 +23,7 @@ export default function Projects() {
                 <p>+918210192330</p>
             </span>
         </div>
-        <Education/>
+        
         <div id="project_sectSkills" style= {{textAlign: 'center', marginTop:'80px'}}>
             <h1>Skills & Interests</h1>
         
@@ -72,8 +72,9 @@ export default function Projects() {
          </div>                 
         </div>
         </div>
-        <h1 style={{textAlign: 'center', marginTop: '-60px'}}>Projects</h1>
-        <div id="project_sectProjects">
+        <div id= 'project_sectProjects'>
+        <h1 style={{textAlign: 'center'}}>Projects</h1>
+        <div id="project_sectPro">
             <div className= "pro_card1">
                 <h3 style={{textAlign: 'center'}}>Alibaba Clone</h3>
                 <div className="slider">
@@ -166,6 +167,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <hr/>
         <h1 style={{textAlign: 'center'}}>Contact</h1>

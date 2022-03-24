@@ -25,7 +25,7 @@
 #project_sect2{
     margin: auto;
     width: 90%;
-    /* height: 1000px; */
+    height: 35em;
     /* padding-top: 10px; */
     display: grid;
     grid-template-columns: repeat(5,18%);
@@ -73,7 +73,7 @@
         width: 30px;
         height: 60px;
     }
-    #project_sectProjects{
+    #project_sectPro{
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -137,7 +137,7 @@
   .slider > *:nth-child(4) {animation-delay: 3s}
   .slider > *:nth-child(5) {animation-delay: 4s}
 
-  #project_sectProjects{
+  #project_sectPro{
       display: flex;
       justify-content: space-evenly;
       width: 100%;
@@ -166,6 +166,6 @@
      justify-content: space-evenly;
 
  }
- #project_sectProjects > div:nth-child(2){
+ #project_sectPro > div:nth-child(2){
      display: block;
  }

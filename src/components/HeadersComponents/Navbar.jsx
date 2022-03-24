@@ -4,13 +4,14 @@ import styled from 'styled-components'
 
 const Rapper = styled.div`
 position: 'sticky';
-background-color: #0097a7;
+background-color: rgba(9, 198, 245, 0.897);
 `;
 export default function Navbar() {
     const classes = Styles();
     const navlinks = [
         { label: 'Home',Id: 'Home'},
-        { label: 'Skills', Id: 'Skills'}, 
+        { label: 'Skills', Id: 'Skills'},
+        { label: 'Education', Id: 'Education'},
         { label: 'Projects', Id: 'Projects'}, 
         { label: 'Contact',Id: 'Contact'},
  
@@ -48,6 +49,7 @@ export default function Navbar() {
            <div id='tr' style={{position: 'absolute',textAlign: 'center',top:'3vh',right: '0vw',display: 'none',zIndex:"1",overflow: 'visible', width:'100px'}}>
              <a href= '#project_sectHome'style={{textDecoration: 'none', color: 'black'}}>Home</a><br/>
              <a  href= '#project_sectSkills'style={{textDecoration: 'none', color: 'black'}}>Skills</a><br/>
+             <a  href= '#project_sectSkills'style={{textDecoration: 'none', color: 'black'}}>Education</a><br/>
              <a href= '#project_sectProjects'style={{textDecoration: 'none', color: 'black'}}>Projects</a><br/>
              <a href= '#project_sectContact'style={{textDecoration: 'none', color: 'black'}}>Contact</a><br/>
            </div> 
