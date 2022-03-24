@@ -4,7 +4,7 @@ import LocationOnRoundedIcon from '@mui/icons-material/LocationOnRounded';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import CallRoundedIcon from '@mui/icons-material/CallRounded';
 import {ContactUs} from '../inputComponent/input'
-
+import {Education} from'../EducationComponents/Education'
 
 export default function Projects() {
   return (
@@ -23,7 +23,7 @@ export default function Projects() {
                 <p>+918210192330</p>
             </span>
         </div>
-     
+        <Education/>
         <div id="project_sectSkills" style= {{textAlign: 'center', marginTop:'80px'}}>
             <h1>Skills & Interests</h1>
         

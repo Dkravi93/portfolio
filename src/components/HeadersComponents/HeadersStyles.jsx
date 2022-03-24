@@ -13,7 +13,15 @@ export const Styles = makeStyles((theme) =>({
         backgroundRepeat: 'no-repeat',
     },
     Navbar: {
-        backgroundColor : Theme.colors.best,
+        boxShadow: "none",
+        backgroundColor : Theme.colors.primary,
+        color: '#fff'
+    },
+    Stick:{
+        top: '0vh',
+        position: 'fixed',
+        width: '100%',
+        zIndex:'9',
         color: '#fff'
     },
     headcontent: {
@@ -112,6 +120,7 @@ export const Styles = makeStyles((theme) =>({
         top: "0vh",
         backgroundColor:Theme.colors.base2,
         marginBottom : '40px',
+        border: '4px solid #27AE60',
         [theme.breakpoints.down('xs')]: {
             width: "100px",
             height: "115px",

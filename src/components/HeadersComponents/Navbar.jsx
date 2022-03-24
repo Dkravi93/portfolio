@@ -1,8 +1,11 @@
-import { AppBar, Toolbar, Typography, Box, Button, Hidden} from '@material-ui/core'
+import {  Toolbar, Typography, Box, Button, Hidden} from '@material-ui/core'
 import {Styles} from './HeadersStyles';
-// import MenuOpenRoundedIcon from '@mui/icons-material/MenuOpenRounded';
+import styled from 'styled-components'
 
-
+const Rapper = styled.div`
+position: 'sticky';
+background-color: #0097a7;
+`;
 export default function Navbar() {
     const classes = Styles();
     const navlinks = [
@@ -13,20 +16,21 @@ export default function Navbar() {
  
     ];
 
+
     const handleNavHide = () => {
       document.getElementById("tr").style.display = "flex";
       document.getElementById("tr").style.flexDirection = "column";
       document.getElementById("tr").style.backgroundColor = "white";
       
     }
+
     
   return (
-    <AppBar position="fixed" className={classes.Navbar} id={classes.project_sectHome}>
+    <Rapper className={classes.Stick}>
     <Toolbar className={classes.Toolbar}>
     <Typography component="h6">
       {<span id="project_sectHome">{'<Coders/>' }</span>}
     </Typography>
-    {}
     <Box component={Hidden} xsDown>
         <Box className={classes.nav_bar}>
         {navlinks.map((item,i)=>{
@@ -53,6 +57,6 @@ export default function Navbar() {
        
     </Box>
   </Toolbar>
-</AppBar>
+  </Rapper>
   )
 }
