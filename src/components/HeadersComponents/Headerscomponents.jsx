@@ -21,7 +21,7 @@ export default function headerscompnents() {
     const [res,setRes] = State("");
 
     const handleClick = () => {
-      window.open("https://drive.google.com/file/d/1P4FqPrXjUN68MbXfyXO7Uyjd0vPyGAkM/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1RM-OHvzqimNdyVgLb1rBeavS4VRF0kC4/view?usp=sharing");
     };
   
     Effect(() => {
