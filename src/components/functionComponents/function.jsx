@@ -11,10 +11,10 @@ const handleClick4 = () => {
     window.open("https://epic-jepsen-081da0.netlify.app");
   };
 const handleClick5 = () => {
-    window.open("https://github.com/Dkravi93/ProjectFreshly");
+    window.open("https://github.com/Dkravi93/MyEcommerce");
   };
 const handleClick6 = () => {
-    window.open("https://eclectic-bienenstitch-13fef4.netlify.app");
+    window.open("https://my-ecommerce-wheat.vercel.app/");
   };
 const handleClick7 = () => {
     window.open("https://github.com/Dkravi93");
